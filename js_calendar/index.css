@@ -1,0 +1,140 @@
+p,
+h4{
+  text-align: left;
+  margin: 0;
+}
+#dateWrapper {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px 0;
+}
+#dateWrapper .dw-time {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 26px;
+}
+#dateWrapper .dw-date {
+  color: #999;
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #666;
+}
+#dateWrapper .dw-body {
+  padding: 10px;
+  font-size: 14px;
+}
+#dateWrapper .dw-header {
+  position: relative;
+  margin-bottom: 20px;
+}
+#dateWrapper .dw-header .dw-header-next {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  width: 25px;
+  height: 25px;
+}
+#dateWrapper .dw-header .dw-header-next::after{
+  content: ' ';
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  left: 10px;
+  top: 10px;
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#dateWrapper .dw-header .dw-header-next::before{
+  content: ' ';
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  top: 10px;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#dateWrapper .dw-header .dw-header-last {
+  position: absolute;
+  top: 0px;
+  right: 40px;
+  width: 25px;
+  height: 25px;
+}
+#dateWrapper .dw-header .dw-header-last::after{
+  content: ' ';
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  left: 10px;
+  top: 10px;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#dateWrapper .dw-header .dw-header-last::before{
+  content: ' ';
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  top: 10px;
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#dateWrapper .dw-content {
+  color: #ddd;
+}
+#dateWrapper .dw-content table {
+  width: 100%;
+}
+#dateWrapper .dw-content table thead {
+  line-height: 30px;
+}
+#dateWrapper .dw-content table td {
+  border: 2px solid transparent;
+  line-height: 30px;
+  padding: 5px 0;
+  width: 14.2%;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+#dateWrapper .dw-content table td.dw-item-past {
+  color: #777;
+}
+#dateWrapper .dw-content table td.dw-item-now {
+  border-color: #0078d7;
+  background-color: #0078d7;
+  color: #fff;
+}
+#dateWrapper .dw-content table td.dw-item-active{
+  border-color: #5b98ca;
+}
+#dateWrapper .dw-content table td:hover {
+  border-color: #999;
+}
+#dateWrapper .dw-content table td p {
+  text-align: center;
+  line-height: 20px;
+}
+#dateWrapper .dw-event {
+  border-top: 1px solid #666;
+  padding: 10px 10px 20px;
+}
+#dateWrapper .dw-event span{
+  margin-right: 5px;
+}

@@ -167,6 +167,7 @@
       },
       getTime(){
         let self = this;
+        self.time = new Date().format('hh:mm:ss');
         this.timer = setInterval(()=>{
           self.time = new Date().format('hh:mm:ss');
         },1000)
